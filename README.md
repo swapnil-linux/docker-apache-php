@@ -7,7 +7,7 @@ Assuming you have web content at /mnt/www and want your site to available on 808
 
  `docker run -p 8080:80 -p 443:443 -v /mnt/www:/var/www/html --name=myweb -d swapnillinux/apache-php` 
 
-and you site is available to browse on http://<your_host_ip>:8080 and https://<your_host_ip>
+and you site is available to browse on http://your_host_ip:8080 and https://your_host_ip
 
 Enjoy :)
 
